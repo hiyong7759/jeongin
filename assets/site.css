@@ -484,3 +484,9 @@ section h2:after{display:none}.lead{font-size:18px;line-height:1.85}
  .motion-ready [data-reveal="from-right"]{transform:translate3d(20px,12px,0);transition:opacity .9s ease,transform .9s cubic-bezier(.22,1,.36,1)}
  .motion-ready [data-reveal="from-left"].is-visible,.motion-ready [data-reveal="from-right"].is-visible,.motion-ready [data-reveal]:focus-within{transform:none;opacity:1}
 }
+
+@media(max-width:760px){
+ .profile{grid-template-columns:1fr}
+ .profile>div:first-child{width:100%;min-width:0;justify-self:stretch}
+ .profile-photo{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border-radius:28px}
+}
