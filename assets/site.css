@@ -490,3 +490,7 @@ section h2:after{display:none}.lead{font-size:18px;line-height:1.85}
  .profile>div:first-child{width:100%;min-width:0;justify-self:stretch}
  .profile-photo{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border-radius:28px}
 }
+
+/* Supplied brand artwork retains its original gold and sage colors. */
+.brand-artwork{display:block;width:min(100%,440px);height:auto;margin:44px auto 52px}
+footer img{filter:none;opacity:1;width:72px;height:76px;object-fit:contain}
