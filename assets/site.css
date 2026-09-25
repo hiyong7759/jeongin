@@ -494,3 +494,6 @@ section h2:after{display:none}.lead{font-size:18px;line-height:1.85}
 /* Supplied brand artwork retains its original gold and sage colors. */
 .brand-artwork{display:block;width:min(100%,440px);height:auto;margin:44px auto 52px}
 footer img{filter:none;opacity:1;width:72px;height:76px;object-fit:contain}
+
+/* The section index owns in-page navigation; these labels are reading content. */
+.choice-method{flex-shrink:0;font-size:14px;font-weight:500;color:var(--muted);line-height:1.7}
