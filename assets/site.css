@@ -497,3 +497,4 @@ footer img{filter:none;opacity:1;width:72px;height:76px;object-fit:contain}
 
 /* The section index owns in-page navigation; these labels are reading content. */
 .choice-method{flex-shrink:0;font-size:14px;font-weight:500;color:var(--muted);line-height:1.7}
+picture{display:contents}
