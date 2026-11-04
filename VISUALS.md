@@ -4,7 +4,8 @@
 
 - `assets/nature-path.webp`: 첫 화면의 숲길 비주얼
 - `assets/connection-ripples.webp`: 몸·마음·관계의 연결을 표현하는 물결 비주얼
-- `assets/director-portrait.webp`: 대표자 원본 캡처의 UI 제거 및 프로필 구도·조명 정리
+- `assets/director-photo.webp`: 대표자 촬영 원본(3872×5808)을 4:5로 잘라 960×1200으로 줄인 프로필 사진
+- `assets/space-*.webp`: 인테리어 디자인 제안서(2026-10-13)의 이미지를 가로 1200px로 줄인 공간 사진(교육실·상담실2·명상실·원장실·전체 조감)
 
 ## 사용 프롬프트
 
@@ -16,7 +17,7 @@ Use case: photorealistic-natural. Asset type: portrait hero photograph for a Kor
 
 Use case: photorealistic-natural. Asset type: landscape editorial visual for the body-mind-relationships philosophy section of a Korean counseling website, 1536x1024. Create a tranquil close-up nature photograph of three smooth warm grey river stones partly emerging from shallow clear water, their delicate circular ripples meeting and connecting, a small softly focused green branch at upper edge, warm sunlight reflected on water and sandy riverbed, soft sage green reflections and warm cream light, subtle natural texture, sophisticated editorial wellness photography. Balanced asymmetrical composition with spacious breathing room, gently poetic but realistic, no stacked stones, no spa props, no people, no room or furniture, no text, no logo, no watermark. Full bleed photograph only.
 
-### 대표자 사진
+### 대표자 사진(이전 편집본의 프롬프트, 현재는 촬영 원본 사용)
 
 Use case: identity-preserve / precise-object-edit. Edit target: attached local photo is a mobile screenshot of a Korean woman's portrait. Produce a clean professional website portrait photograph with absolutely no phone screenshot UI. Remove all status bar/time/battery icons, back arrow, social app avatar/name/date/text, heart/chat/more buttons, dark bottom navigation bar, and interface gradient overlays. Crop/reframe to a flattering portrait 4:5 composition, head and shoulders with some upper torso, modest headroom. Preserve the EXACT SAME woman's facial identity, age, facial geometry, eyes, nose, smile, hair, earrings, necklace, white blouse and natural friendly expression. Do not beautify into a different person, no age reduction, no face reshaping, retain natural skin texture. Keep original dark warm wooden architectural background but softly defocus it and remove the distracting framed sign/calligraphy; do not invent a clinic or office. Correct exposure and white balance very subtly for natural soft daylight and a warm cream/forest green counseling website palette. Clean, credible editorial portrait, realistic photograph, no text, no watermark, no added objects. The result must look like the original portrait photograph recovered from the screenshot, not a new person.
 
