@@ -506,7 +506,10 @@ picture{display:contents}
 .team-member{min-width:0}
 .team-member .counselor-name{margin-bottom:14px}
 .team-quote{font-size:15px;line-height:1.85;color:#4c5e56;margin:0}
-.team-facts{margin-top:22px}
+.team-quote{margin-bottom:22px}
+.team-facts .fact:first-child{margin-top:0}
 .team-facts .fact ul{list-style:none;margin:6px 0 0;padding:0}
 .team-facts .fact li{padding:2px 0;line-height:1.6;word-break:keep-all}
+/* 두 사람의 소개말·경력·학력·자격 줄을 같은 높이에 맞춰, 길이가 달라도 가로줄이 이어지게 한다(넓은 화면만). */
+@media(min-width:861px){.team-list{column-gap:56px;row-gap:0}.team-member{display:grid;grid-template-rows:subgrid;grid-row:span 5}.team-facts{display:contents}}
 @media(max-width:860px){.team{margin-top:56px;padding-top:44px}.team-list{grid-template-columns:1fr;gap:44px}}
