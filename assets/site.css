@@ -498,3 +498,15 @@ footer img{filter:none;opacity:1;width:72px;height:76px;object-fit:contain}
 /* The section index owns in-page navigation; these labels are reading content. */
 .choice-method{flex-shrink:0;font-size:14px;font-weight:500;color:var(--muted);line-height:1.7}
 picture{display:contents}
+
+/* 대표 아래에 사진 없이 이어지는 상담자 소개: 대표 소개와 같은 목록 글자 모양을 쓴다. */
+.team{margin-top:72px;padding-top:56px;border-top:1px solid var(--line)}
+.team-heading{font-size:clamp(24px,2.4vw,30px);font-weight:600;letter-spacing:-.03em;margin:0 0 36px}
+.team-list{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.team-member{min-width:0}
+.team-member .counselor-name{margin-bottom:14px}
+.team-quote{font-size:15px;line-height:1.85;color:#4c5e56;margin:0}
+.team-facts{margin-top:22px}
+.team-facts .fact ul{list-style:none;margin:6px 0 0;padding:0}
+.team-facts .fact li{padding:2px 0;line-height:1.6;word-break:keep-all}
+@media(max-width:860px){.team{margin-top:56px;padding-top:44px}.team-list{grid-template-columns:1fr;gap:44px}}
