@@ -513,3 +513,9 @@ picture{display:contents}
 /* 두 사람의 소개말·경력·학력·자격 줄을 같은 높이에 맞춰, 길이가 달라도 가로줄이 이어지게 한다(넓은 화면만). */
 @media(min-width:861px){.team-list{column-gap:56px;row-gap:0}.team-member{display:grid;grid-template-rows:subgrid;grid-row:span 5}.team-facts{display:contents}}
 @media(max-width:860px){.team{margin-top:56px;padding-top:44px}.team-list{grid-template-columns:1fr;gap:44px}}
+
+/* PC·태블릿 상단 로고 옆 이름: 작은 두 줄 글씨는 읽기 어려워, 센터 이름 전체를 한 줄로 크게 보여준다. */
+@media(min-width:641px){
+ .brand span{display:flex;align-items:baseline;gap:9px;font-size:22px;line-height:1.2;white-space:nowrap}
+ .brand small{display:inline;margin-top:0;font-size:18px;font-weight:700;color:#3f594d}
+}
