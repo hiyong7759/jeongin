@@ -519,3 +519,10 @@ picture{display:contents}
  .brand span{display:flex;align-items:baseline;gap:9px;font-size:22px;line-height:1.2;white-space:nowrap}
  .brand small{display:inline;margin-top:0;font-size:18px;font-weight:700;color:#3f594d}
 }
+/* 넓은 화면(1024px 이상)에서는 로고와 이름을 더 크게 키워 멀리서도 읽히게 한다. */
+@media(min-width:1024px){
+ .brand{gap:14px}
+ .brand img{width:54px;height:54px}
+ .brand span{font-size:32px;gap:12px}
+ .brand small{font-size:26px}
+}
